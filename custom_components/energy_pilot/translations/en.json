@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "Energipilot",
+        "description": "Add Energy Pilot's buttons and sensors to Home Assistant?"
+      },
+      "user": {
+        "title": "Energipilot",
+        "description": "The address of the Energy Pilot app (Docker).",
+        "data": {
+          "url": "Address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Energy Pilot isn't answering at that address."
+    },
+    "abort": {
+      "already_configured": "Energy Pilot is already added."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "decision": {
+        "name": "Decision",
+        "state": {
+          "discharge": "Battery powers the house",
+          "charge": "Battery charges",
+          "grid": "Charging with cheap power",
+          "hold": "Saving the power",
+          "export": "Selling power from the battery"
+        }
+      },
+      "price_now": {
+        "name": "Price now"
+      },
+      "battery_target": {
+        "name": "Battery target"
+      },
+      "plan_saving": {
+        "name": "Plan saves"
+      },
+      "saved_yesterday": {
+        "name": "Saved yesterday"
+      },
+      "saved_today": {
+        "name": "Saved today"
+      },
+      "saved_month": {
+        "name": "Saved this month"
+      },
+      "saved_year": {
+        "name": "Saved this year"
+      },
+      "saved_total": {
+        "name": "Saved in all"
+      },
+      "battery_cost": {
+        "name": "Battery power cost"
+      },
+      "next_battery_charge": {
+        "name": "Next battery charge"
+      },
+      "next_car_charge": {
+        "name": "Next car charge"
+      },
+      "next_battery_sell": {
+        "name": "Next battery sale"
+      },
+      "cheapest_hour": {
+        "name": "Cheapest hour"
+      },
+      "house_today": {
+        "name": "House use today"
+      },
+      "solar_forecast_today": {
+        "name": "Solar forecast today"
+      },
+      "solar_forecast_tomorrow": {
+        "name": "Solar forecast tomorrow"
+      },
+      "battery_runtime": {
+        "name": "Battery lasts until"
+      }
+    },
+    "switch": {
+      "charge_now": {
+        "name": "Charge now"
+      },
+      "next_trip": {
+        "name": "100 % for next trip"
+      }
+    },
+    "time": {
+      "ready_at": {
+        "name": "Ready at"
+      }
+    },
+    "number": {
+      "at_most": {
+        "name": "At most"
+      },
+      "battery_min": {
+        "name": "Battery minimum"
+      },
+      "charge_to": {
+        "name": "Charge car to"
+      }
+    },
+    "select": {
+      "style": {
+        "name": "Style",
+        "state": {
+          "cheapest": "Cheapest",
+          "solar": "Most sun",
+          "safe": "Safety",
+          "car_first": "Car first",
+          "battery_first": "Battery first"
+        }
+      },
+      "battery_mode": {
+        "name": "Battery control",
+        "state": {
+          "shadow": "Shadow",
+          "control": "Control",
+          "off": "Off"
+        }
+      },
+      "car_mode": {
+        "name": "Car control",
+        "state": {
+          "shadow": "Shadow",
+          "control": "Control",
+          "off": "Off"
+        }
+      }
+    },
+    "button": {
+      "all_shadow": {
+        "name": "Everything back to shadow"
+      }
+    }
+  }
+}

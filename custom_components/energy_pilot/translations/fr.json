@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "Energipilot",
+        "description": "Ajouter les boutons et capteurs d'Energy Pilot à Home Assistant ?"
+      },
+      "user": {
+        "title": "Energipilot",
+        "description": "L'adresse de l'app Energy Pilot (Docker).",
+        "data": {
+          "url": "Adresse"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Energy Pilot ne répond pas à cette adresse."
+    },
+    "abort": {
+      "already_configured": "Energy Pilot est déjà ajouté."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "decision": {
+        "name": "Décision",
+        "state": {
+          "discharge": "La batterie alimente la maison",
+          "charge": "La batterie charge",
+          "grid": "Charge avec de l'électricité bon marché",
+          "hold": "Garde l'énergie",
+          "export": "Vend l'énergie de la batterie"
+        }
+      },
+      "price_now": {
+        "name": "Prix actuel"
+      },
+      "battery_target": {
+        "name": "Objectif batterie"
+      },
+      "plan_saving": {
+        "name": "Le plan économise"
+      },
+      "saved_yesterday": {
+        "name": "Économisé hier"
+      },
+      "saved_today": {
+        "name": "Économisé aujourd'hui"
+      },
+      "saved_month": {
+        "name": "Économisé ce mois-ci"
+      },
+      "saved_year": {
+        "name": "Économisé cette année"
+      },
+      "saved_total": {
+        "name": "Économisé au total"
+      },
+      "battery_cost": {
+        "name": "Coût de l'énergie de la batterie"
+      },
+      "next_battery_charge": {
+        "name": "Prochaine charge de la batterie"
+      },
+      "next_car_charge": {
+        "name": "Prochaine charge de la voiture"
+      },
+      "next_battery_sell": {
+        "name": "Prochaine vente depuis la batterie"
+      },
+      "cheapest_hour": {
+        "name": "Heure la moins chère"
+      },
+      "house_today": {
+        "name": "Consommation de la maison aujourd'hui"
+      },
+      "solar_forecast_today": {
+        "name": "Prévision solaire aujourd'hui"
+      },
+      "solar_forecast_tomorrow": {
+        "name": "Prévision solaire demain"
+      },
+      "battery_runtime": {
+        "name": "La batterie tient jusqu'à"
+      }
+    },
+    "switch": {
+      "charge_now": {
+        "name": "Charger maintenant"
+      },
+      "next_trip": {
+        "name": "100 % pour le prochain trajet"
+      }
+    },
+    "time": {
+      "ready_at": {
+        "name": "Prête à"
+      }
+    },
+    "number": {
+      "at_most": {
+        "name": "Au maximum"
+      },
+      "battery_min": {
+        "name": "Minimum de la batterie"
+      },
+      "charge_to": {
+        "name": "Charger la voiture jusqu'à"
+      }
+    },
+    "select": {
+      "style": {
+        "name": "Style",
+        "state": {
+          "cheapest": "Le moins cher",
+          "solar": "Le plus de soleil",
+          "safe": "Sécurité",
+          "car_first": "Voiture d'abord",
+          "battery_first": "Batterie d'abord"
+        }
+      },
+      "battery_mode": {
+        "name": "Contrôle batterie",
+        "state": {
+          "shadow": "Ombre",
+          "control": "Contrôle",
+          "off": "Arrêt"
+        }
+      },
+      "car_mode": {
+        "name": "Contrôle voiture",
+        "state": {
+          "shadow": "Ombre",
+          "control": "Contrôle",
+          "off": "Arrêt"
+        }
+      }
+    },
+    "button": {
+      "all_shadow": {
+        "name": "Tout remettre en ombre"
+      }
+    }
+  }
+}

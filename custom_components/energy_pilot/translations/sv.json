@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "Energipilot",
+        "description": "Lägga till Energy Pilots knappar och sensorer i Home Assistant?"
+      },
+      "user": {
+        "title": "Energipilot",
+        "description": "Adressen till Energy Pilot-appen (Docker).",
+        "data": {
+          "url": "Adress"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Energy Pilot svarar inte på den adressen."
+    },
+    "abort": {
+      "already_configured": "Energy Pilot är redan tillagd."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "decision": {
+        "name": "Beslut",
+        "state": {
+          "discharge": "Batteriet försörjer huset",
+          "charge": "Batteriet laddar",
+          "grid": "Laddar med billig ström",
+          "hold": "Sparar strömmen",
+          "export": "Säljer ström från batteriet"
+        }
+      },
+      "price_now": {
+        "name": "Pris nu"
+      },
+      "battery_target": {
+        "name": "Batterimål"
+      },
+      "plan_saving": {
+        "name": "Planen sparar"
+      },
+      "saved_yesterday": {
+        "name": "Sparat igår"
+      },
+      "saved_today": {
+        "name": "Sparat idag"
+      },
+      "saved_month": {
+        "name": "Sparat denna månad"
+      },
+      "saved_year": {
+        "name": "Sparat i år"
+      },
+      "saved_total": {
+        "name": "Sparat totalt"
+      },
+      "battery_cost": {
+        "name": "Batteriströmmens kostnad"
+      },
+      "next_battery_charge": {
+        "name": "Nästa laddning av batteriet"
+      },
+      "next_car_charge": {
+        "name": "Nästa laddning av bilen"
+      },
+      "next_battery_sell": {
+        "name": "Nästa försäljning från batteriet"
+      },
+      "cheapest_hour": {
+        "name": "Billigaste timmen"
+      },
+      "house_today": {
+        "name": "Husets förbrukning i dag"
+      },
+      "solar_forecast_today": {
+        "name": "Solprognos i dag"
+      },
+      "solar_forecast_tomorrow": {
+        "name": "Solprognos i morgon"
+      },
+      "battery_runtime": {
+        "name": "Batteriet räcker till"
+      }
+    },
+    "switch": {
+      "charge_now": {
+        "name": "Ladda nu"
+      },
+      "next_trip": {
+        "name": "100 % till nästa resa"
+      }
+    },
+    "time": {
+      "ready_at": {
+        "name": "Klar kl."
+      }
+    },
+    "number": {
+      "at_most": {
+        "name": "Högst"
+      },
+      "battery_min": {
+        "name": "Batteriminimum"
+      },
+      "charge_to": {
+        "name": "Ladda bilen till"
+      }
+    },
+    "select": {
+      "style": {
+        "name": "Stil",
+        "state": {
+          "cheapest": "Billigast",
+          "solar": "Mest sol",
+          "safe": "Trygghet",
+          "car_first": "Bilen först",
+          "battery_first": "Batteriet först"
+        }
+      },
+      "battery_mode": {
+        "name": "Batteristyrning",
+        "state": {
+          "shadow": "Skugga",
+          "control": "Styr",
+          "off": "Av"
+        }
+      },
+      "car_mode": {
+        "name": "Bilstyrning",
+        "state": {
+          "shadow": "Skugga",
+          "control": "Styr",
+          "off": "Av"
+        }
+      }
+    },
+    "button": {
+      "all_shadow": {
+        "name": "Allt tillbaka till skugga"
+      }
+    }
+  }
+}

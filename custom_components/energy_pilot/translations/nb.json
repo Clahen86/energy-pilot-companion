@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "Energipilot",
+        "description": "Legge til Energipilotens knapper og sensorer i Home Assistant?"
+      },
+      "user": {
+        "title": "Energipilot",
+        "description": "Adressen til Energipilot-appen (Docker).",
+        "data": {
+          "url": "Adresse"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Energipilot svarer ikke på den adressen."
+    },
+    "abort": {
+      "already_configured": "Energipilot er allerede lagt til."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "decision": {
+        "name": "Beslutning",
+        "state": {
+          "discharge": "Batteriet forsyner huset",
+          "charge": "Batteriet lader",
+          "grid": "Lader med billig strøm",
+          "hold": "Sparer strømmen",
+          "export": "Selger strøm fra batteriet"
+        }
+      },
+      "price_now": {
+        "name": "Pris nå"
+      },
+      "battery_target": {
+        "name": "Batterimål"
+      },
+      "plan_saving": {
+        "name": "Planen sparer"
+      },
+      "saved_yesterday": {
+        "name": "Spart i går"
+      },
+      "saved_today": {
+        "name": "Spart i dag"
+      },
+      "saved_month": {
+        "name": "Spart denne måneden"
+      },
+      "saved_year": {
+        "name": "Spart i år"
+      },
+      "saved_total": {
+        "name": "Spart totalt"
+      },
+      "battery_cost": {
+        "name": "Batteriets kostpris"
+      },
+      "next_battery_charge": {
+        "name": "Neste lading av batteriet"
+      },
+      "next_car_charge": {
+        "name": "Neste lading av bilen"
+      },
+      "next_battery_sell": {
+        "name": "Neste salg fra batteriet"
+      },
+      "cheapest_hour": {
+        "name": "Billigste time"
+      },
+      "house_today": {
+        "name": "Husets forbruk i dag"
+      },
+      "solar_forecast_today": {
+        "name": "Solprognose i dag"
+      },
+      "solar_forecast_tomorrow": {
+        "name": "Solprognose i morgen"
+      },
+      "battery_runtime": {
+        "name": "Batteriet rekker til"
+      }
+    },
+    "switch": {
+      "charge_now": {
+        "name": "Lad nå"
+      },
+      "next_trip": {
+        "name": "100 % til neste tur"
+      }
+    },
+    "time": {
+      "ready_at": {
+        "name": "Klar kl."
+      }
+    },
+    "number": {
+      "at_most": {
+        "name": "Høyst"
+      },
+      "battery_min": {
+        "name": "Batteriminimum"
+      },
+      "charge_to": {
+        "name": "Lad bilen til"
+      }
+    },
+    "select": {
+      "style": {
+        "name": "Stil",
+        "state": {
+          "cheapest": "Billigst mulig",
+          "solar": "Mest sol",
+          "safe": "Trygghet",
+          "car_first": "Bilen først",
+          "battery_first": "Batteriet først"
+        }
+      },
+      "battery_mode": {
+        "name": "Batteristyring",
+        "state": {
+          "shadow": "Skygge",
+          "control": "Styrer",
+          "off": "Av"
+        }
+      },
+      "car_mode": {
+        "name": "Bilstyring",
+        "state": {
+          "shadow": "Skygge",
+          "control": "Styrer",
+          "off": "Av"
+        }
+      }
+    },
+    "button": {
+      "all_shadow": {
+        "name": "Alt tilbake i skygge"
+      }
+    }
+  }
+}

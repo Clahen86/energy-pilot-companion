@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "Energipilot",
+        "description": "Energy Pilots Schalter und Sensoren zu Home Assistant hinzufügen?"
+      },
+      "user": {
+        "title": "Energipilot",
+        "description": "Die Adresse der Energy-Pilot-App (Docker).",
+        "data": {
+          "url": "Adresse"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Energy Pilot antwortet unter dieser Adresse nicht."
+    },
+    "abort": {
+      "already_configured": "Energy Pilot ist bereits hinzugefügt."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "decision": {
+        "name": "Entscheidung",
+        "state": {
+          "discharge": "Batterie versorgt das Haus",
+          "charge": "Batterie lädt",
+          "grid": "Lädt mit günstigem Strom",
+          "hold": "Hebt den Strom auf",
+          "export": "Verkauft Strom aus der Batterie"
+        }
+      },
+      "price_now": {
+        "name": "Preis jetzt"
+      },
+      "battery_target": {
+        "name": "Batterieziel"
+      },
+      "plan_saving": {
+        "name": "Plan spart"
+      },
+      "saved_yesterday": {
+        "name": "Gestern gespart"
+      },
+      "saved_today": {
+        "name": "Heute gespart"
+      },
+      "saved_month": {
+        "name": "Diesen Monat gespart"
+      },
+      "saved_year": {
+        "name": "Dieses Jahr gespart"
+      },
+      "saved_total": {
+        "name": "Insgesamt gespart"
+      },
+      "battery_cost": {
+        "name": "Kosten des Batteriestroms"
+      },
+      "next_battery_charge": {
+        "name": "Nächste Batterieladung"
+      },
+      "next_car_charge": {
+        "name": "Nächste Autoladung"
+      },
+      "next_battery_sell": {
+        "name": "Nächster Verkauf aus der Batterie"
+      },
+      "cheapest_hour": {
+        "name": "Günstigste Stunde"
+      },
+      "house_today": {
+        "name": "Hausverbrauch heute"
+      },
+      "solar_forecast_today": {
+        "name": "Solarprognose heute"
+      },
+      "solar_forecast_tomorrow": {
+        "name": "Solarprognose morgen"
+      },
+      "battery_runtime": {
+        "name": "Batterie reicht bis"
+      }
+    },
+    "switch": {
+      "charge_now": {
+        "name": "Jetzt laden"
+      },
+      "next_trip": {
+        "name": "100 % für die nächste Fahrt"
+      }
+    },
+    "time": {
+      "ready_at": {
+        "name": "Fertig um"
+      }
+    },
+    "number": {
+      "at_most": {
+        "name": "Höchstens"
+      },
+      "battery_min": {
+        "name": "Batterie-Minimum"
+      },
+      "charge_to": {
+        "name": "Auto laden bis"
+      }
+    },
+    "select": {
+      "style": {
+        "name": "Stil",
+        "state": {
+          "cheapest": "Am günstigsten",
+          "solar": "Am meisten Sonne",
+          "safe": "Sicherheit",
+          "car_first": "Auto zuerst",
+          "battery_first": "Batterie zuerst"
+        }
+      },
+      "battery_mode": {
+        "name": "Batteriesteuerung",
+        "state": {
+          "shadow": "Schatten",
+          "control": "Steuern",
+          "off": "Aus"
+        }
+      },
+      "car_mode": {
+        "name": "Autosteuerung",
+        "state": {
+          "shadow": "Schatten",
+          "control": "Steuern",
+          "off": "Aus"
+        }
+      }
+    },
+    "button": {
+      "all_shadow": {
+        "name": "Alles zurück in den Schatten"
+      }
+    }
+  }
+}
