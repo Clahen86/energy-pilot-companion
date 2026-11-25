@@ -30,7 +30,8 @@ It follows your Home Assistant theme and language, and it is updated with the En
 |---|---|
 | **Savings** | Saved today, yesterday, this month, this year, in all · what the plan saves |
 | **Battery** | Target · cost price · lasts until · next charge · next sale · health (what it holds against its label) |
-| **Car** | Next charge · *Charge now* · ready at · at most (kWh) |
+| **Car** | Next charge · *Charge now* · ready at · at most (kWh) or charge to (%) · 100 % for next trip |
+| **More cars** | Each extra charger: the same, named after it · *Car in charger* (which car is plugged in, when you have a list of cars) |
 | **Price and forecast** | Price now · price level (cheap / normal / dear) · cheapest hour · house today · sun today and tomorrow |
 | **Control** | Decision · style · battery and car shadow/control · battery minimum · *Everything back to shadow* |
 | **Problem** | On when something needs a look – a warning in Energy Pilot's own check, or Home Assistant not answering |
