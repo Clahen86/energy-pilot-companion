@@ -1,5 +1,9 @@
 # Changelog – Energipilot companion
 
+## 1.1.1 – 2026-11-25
+
+- English names: the integration, its device and the setup are called Energy Pilot (existing entity ids stay)
+
 ## 1.1.0 – 2026-11-23
 
 - New entities: **Problem** (on when something needs a look), **Price level** (cheap / normal / dear) and **Battery health**
