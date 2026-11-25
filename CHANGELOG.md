@@ -1,5 +1,10 @@
 # Changelog – Energipilot companion
 
+## 1.3.0 – 2026-11-25
+
+- New **Car in charger** select for each charger when you have a list of cars in the app: shows the car Energy Pilot found, and lets you pick another (also from an automation)
+- Needs Energy Pilot 0.110.0
+
 ## 1.2.0 – 2026-11-25
 
 - Every extra car (charger 2, 3 …) gets its own entities, named after the car: **Charge now**, **Ready at**, **Charge to** (with the car's battery level picked in the app, else **At most**), **100 % for next trip** and **Next charge**
