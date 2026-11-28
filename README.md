@@ -36,6 +36,10 @@ It follows your Home Assistant theme and language, and it is updated with the En
 | **Control** | Decision · style · battery and car shadow/control · battery minimum · *Everything back to shadow* |
 | **Problem** | On when something needs a look – a warning in Energy Pilot's own check, or Home Assistant not answering |
 
+## Ask your AI
+
+The integration gives Home Assistant's AI assistants (Google, ChatGPT, Claude or a local one) tools to look Energy Pilot up – ask in your own words: "can I start the dishwasher now?", "why isn't the battery charging?", "when does the car charge?", "how much did we save this month?". Turn on **Energy Pilot** once under Settings → Voice assistants → your assistant → the AI's options. Only reads, never controls.
+
 ## Install
 
 1. Open the **Marketplace** (HACS) in Home Assistant.
